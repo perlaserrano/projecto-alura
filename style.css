@@ -1,50 +1,158 @@
-/* body{
-    background: #cccccc;
-} */
-.titulo-principal{
-    padding-left: 30px;
+header{
+    background-color: #BBBB;
+    padding: 20px 0;
 }
 
-.titulo-centralizado{
-    text-align: center;
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
 }
-p{
-    text-align: center;
- 
-}
-.mision{
-    font-size: 20px;
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
 }
 
-em strong{
-    color: red;
-}
-#banner{
-    width: 100%;
-   
+nav li{
+    display: inline;
+    margin-left: 15px;
 
 }
-li{
-    font-style: italic;
-    list-style: none;
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
 }
-.diferenciales{
-    background: white;
-    padding: 30px;
 
+.productos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
 }
-.principal{
-padding: 20px;
-}
-.imagen{
-    background: white;
-}
-ul{
+
+.productos li{
     display: inline-block;
+    text-align: center;
+    width: 30%;
     vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px ;
 }
-.imagen-diferenciales{
+
+.productos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.producto-descripcion{
+    font-size: 18px;
+}
+.producto-precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+nav a:hover{
+    color: #c78c19;
+
+}
+
+.productos li:hover{
+   border-color: #c78c19;
+}
+
+.productos li:active{
+    border-color: #088c19;
+   
+}
+
+.productos li:hover h2{
+    font-size: 33px;
+
+}
+footer{
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding: 40px;
+}
+
+.copyright{
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+
+}
+
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
     width: 50%;
 }
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.test{
+    margin: 10px 0;
+
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: orange;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: darkorange;
+    /* transform: scale(1.20) rotate(70deg); para animaciones */ 
+
+}
+
+table{
+    margin: 40px 40px;
+
+}
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+    
+}
+td,th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
+
