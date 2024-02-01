@@ -1,3 +1,7 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
 header{
     background-color: #BBBB;
     padding: 20px 0;
@@ -89,10 +93,7 @@ footer{
     margin: 20px;
 }
 
-main{
-    width: 940px;
-    margin: 0 auto;
-}
+
 
 form{
     margin: 40px 0;
@@ -155,4 +156,85 @@ td,th{
     padding: 8px 15px;
 }
 
+/*css para nuestra home*/
 
+.banner{
+    width: 100%;
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.principal p{
+    margin: 0 0 1em;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: italic;
+}
+.utensilios{
+    width: 120px;
+    float: left;
+    margin:0 20px 20px 0;
+}
+.mapa{
+    padding: 3em 0;
+    background:linear-gradient(#FEFEFE, #888888) ;
+}
+
+.mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.mapa-contenido{
+width: 940px;
+margin: 0 auto;
+}
+
+.diferenciales{
+    padding: 3em 0;
+    background: #888888;
+}
+
+.principal{
+    padding: 3em 0;
+    background:#f5f5f5;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.contenido-diferenciales{
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-diferenciales{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.items{
+    line-height: 1.5;
+}
+.items:first-child{
+    font-weight: bold;
+}
+
+.imagen-diferenciales{
+    width: 60%;
+}
+
+.video{
+    width: 560px;
+    margin: 1em auto;
+}
