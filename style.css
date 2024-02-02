@@ -254,7 +254,7 @@ margin: 0 auto;
     margin: 1em auto;
 }
 
-@media screen and (max-width:1368px) {
+@media screen and (max-width:1280px) {
     h1{
         text-align: center;
     }
